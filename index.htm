@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta charset="utf-8" http-equiv="x-ua-compatible" content="ie=edge" name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="C:\bootstrap-5.1.3-dist\css/bootstrap.css">
+<style type="text/css">
+body {
+font-family: Bookman Old Style;
+padding:5ex;
+background: linear-gradient(rgb(17,36,90,0.8),rgb(17,36,90,0.8)),url(explore_delhi.jpg);
+}
+p {
+font-size: 20;
+text-align: center;
+}
+strike {
+font-size:18;
+color: black;
+}
+marquee {
+font-weight: bold;
+font-size:24;
+}
+</style>
+</head>
+<title>HOHO Delhi</title>
+<body style="font-family: Bookman Old Style;" class="text-white">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+	    <img src="DelhiTour_Logo.gif">
+	    <img src="logo-intercity.png"></div>
+	<div class="col-sm-2">
+	    <a href="delhi.htm" ><img src="delhi.png"></a></div>
+	<div class="col-sm-2">
+	    <a href="agra.htm"><img src="agra.png"></a></div>
+	<div class="col-sm-2">
+	    <a href="contact.htm"><img src="contact.png"></a></div>
+	<div class="col-sm-2">
+	    <a href="about.htm"><img src="about.png"></a></div>
+</div>
+</div>
+<img src="main.png" width="100%" height="50%" id="img1">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+<input type="button" onclick="changeimg()" value="<">
+<input type="button" onclick="changeimg()" value=">">
+<script type="text/javascript">
+function changeimg()
+{
+	var image=document.getElementById('img1');
+	if (image.src.match("main2"))
+	{
+		image.src="main.png";
+	}
+	else 
+	{
+		image.src="main2.png";
+	}
+}
+
+</script>
+<p style="text-align: left; text-decoration: underline;"> Delhi Sightseeing Bus</p>
+<p style="text-align: center; color: yellow; font-size:36">Rs 600 <strike class="text-white"> Rs 2500</strike></p> 
+<p style="font-size:20;">*Crossed price indicates the price you would have paid if taken a car tour</p> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<button type="button" class="btn btn-lg btn-outline-success" id="booknow">Book Now</button>
+<script type="text/javascript">
+    document.getElementById("booknow").onclick = function () {
+        location.href = "booknow.htm";
+    };
+</script>
+<marquee>Contact us for Delhi, Agra (Taj Mahal, Mathura, Vrindavan), Jaipur, Shimla-Manali, Golden Temple (Amritsar), Haridwar-Rishikesh, Nainital, Hotels in Delhi - @  /  9958966566</marquee>
+</body>
+</html>
